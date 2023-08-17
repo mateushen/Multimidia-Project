@@ -1,0 +1,39 @@
+.home-container {
+    width: 100%;
+    background-image: url("../../assets/img/background.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem 1rem 1rem;
+}
+
+.home-wallpaper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-wallpaper img{
+    width: 70%;
+}
+
+.container-sagas {
+    margin-top: 2rem;
+    width: 70%;
+}
+
+.title-sagas {
+    color: #daa520;
+    background-color: #0e76a8;
+    width: 5rem;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.view-sagas {
+    background-color: #0e76a8;
+    width: 70%;
+}
