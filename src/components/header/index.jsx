@@ -7,6 +7,7 @@ export default function Header() {
             <div className="header-icon">
                 <img src={Logo} width="200" />
             </div>
+            <a className="header-start" href="/">Início</a>
         </header>
     )
 }
