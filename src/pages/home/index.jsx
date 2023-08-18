@@ -7,6 +7,7 @@ import Freeza from '../../assets/img/freezasaga.png';
 import Androids from '../../assets/img/androidsaga.jpg';
 import Cell from '../../assets/img/cellsaga.png';
 import MajinBoo from '../../assets/img/majinboosaga.png';
+import { Characters } from '../../../public/characters';
 
 function Home() {
     return (
@@ -17,9 +18,9 @@ function Home() {
                 <div className="home-wallpaper">
                     <img src={Wallpaper} alt="Wallpaper" />
                 </div>
-                <div className="container-sagas">
-                    <h2 className="title-sagas">Sagas</h2>
-                    <div className="view-sagas">
+                <div className="container-posts">
+                    <h2 className="title-posts">Sagas</h2>
+                    <div className="view-posts">
                         <a href="/saiyajins">
                             <div className="widget">
                                 <img src={Saiyan} width="130" />
@@ -55,6 +56,22 @@ function Home() {
                             </div>
                         </a>
                     </div>
+                </div>
+
+                <div className="container-posts">
+                    <h2 className="title-posts">Personagens</h2>
+
+
+                    <div className="view-posts">
+                        {Characters.map(item => (
+                            <div className="widget">
+                                <img src={Saiyan} width="130" />
+                                <p className="tag">Saiyajins</p>
+                            </div>
+                        ))}
+                    </div>
+
+
                 </div>
             </main>
 
