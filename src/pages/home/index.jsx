@@ -32,7 +32,8 @@ function Home() {
                 </div>
 
                 <div className="container-posts">
-                    <h2 className="title-posts">Sagas</h2>
+
+                    <h2 className="title-section">Sagas</h2>
                     <div className="content-container">
                         {Sagas.map(item => (
                             <a href={item.url} key={item.id}>
@@ -43,29 +44,27 @@ function Home() {
                             </a>
                         ))}
                     </div>
-                </div>
 
-                <div className="container-posts">
-                    <h2 className="title-posts">Personagens</h2>
+                    <h2 className="title-section">Personagens</h2>
                     <div className="content-container">
                         {Characters.map(item => (
                             <div className="widget" key={item.id} onClick={() => openModal(item)}>
-                                <img src={item.img} width="50" />
-                                <p className="tag">{item.name}</p>
+                                <img src={item.img} width="60" />
                             </div>
                         ))}
                     </div>
 
                     <Modal
-                        className="character-modal"
+                        className="modal-content"
                         isOpen={modalIsOpen}
+                       
                         onRequestClose={closeModal}
                     >
                         {selectedCharacter && (
                             <div className="character-info">
                                 <h2 className="character-name">{selectedCharacter.name}</h2>
-                                <p>Raça: <spam>{selectedCharacter.race}</spam></p>
-                                <p>Habilidades: <spam>{selectedCharacter.abilities}</spam></p>
+                                <p>Raça: <span className="description">{selectedCharacter.race}</span></p>
+                                <p>Habilidades: <span className="description">{selectedCharacter.abilities}</span></p>
                                 <button className="modal-close" onClick={closeModal}>Fechar</button>
                             </div>
                         )}

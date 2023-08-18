@@ -10,7 +10,7 @@ function Androids() {
             <main className="saga-page">
                 <div className="saga-container">
                     <div className="saga-history">
-                        <h2>Saga dos Andróides</h2>
+                        <h2 className="title-saga">Saga dos Andróides</h2>
                         <p>
                             A Saga Androides é a sétima saga na série Dragon Ball Z. Na convenção para o lançamento do anime, o arco Androides/Cell foi quebrado em cinco sagas: a Saga Trunks, a Saga Androides, a Saga Cell Imperfeito, a Saga Cell Perfeito, e a Saga Jogos de Cell. Este artigo se refere especificamente aos eventos da segunda saga. Ela mostra Androides 16-19 e seu criador Dr. Gero (também conhecido como Androide 20) que causam destruição no mundo.
                         </p>
