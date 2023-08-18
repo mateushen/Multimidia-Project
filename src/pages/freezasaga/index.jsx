@@ -18,7 +18,7 @@ function Freeza() {
                     </div>
                 </div>
 
-                <iframe width="853" height="480" src="https://www.youtube.com/embed/cSHkiBbvRfc" title="GOKU SE TRANSFORMA PELA PRIMEIRA VEZ EM SSJ - DRAGON BALL Z (4K ULTRA HD)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="853" height="480" src="https://www.youtube.com/embed/bbCQ-XiXKbo" title="Goku vira Super Saiyajin pela primeira vez! 🔥 | Dragon Ball Z (Dublado)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </main>
 
             <Footer />
