@@ -22,35 +22,35 @@ function Home() {
                     <div className="view-sagas">
                         <a href="/saiyajins">
                             <div className="widget">
-                                <img src={Saiyan} width="150" />
+                                <img src={Saiyan} width="130" />
                                 <p className="tag">Saiyajins</p>
                             </div>
                         </a>
 
                         <a href="/freeza">
                             <div className="widget">
-                                <img src={Freeza} width="150" />
+                                <img src={Freeza} width="130" />
                                 <p className="tag">Freeza</p>
                             </div>
                         </a>
 
                         <a href="/androids">
                             <div className="widget">
-                                <img src={Androids} width="150" />
+                                <img src={Androids} width="130" />
                                 <p className="tag">Andróides</p>
                             </div>
                         </a>
 
                         <a href="/cell">
                             <div className="widget">
-                                <img src={Cell} width="150" />
+                                <img src={Cell} width="130" />
                                 <p className="tag">Cell</p>
                             </div>
                         </a>
 
                         <a href="/majinboo">
                             <div className="widget">
-                                <img src={MajinBoo} width="150" />
+                                <img src={MajinBoo} width="130" />
                                 <p className="tag">Majin Boo</p>
                             </div>
                         </a>
