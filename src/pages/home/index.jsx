@@ -63,8 +63,8 @@ function Home() {
                         {selectedCharacter && (
                             <div className="character-info">
                                 <h2 className="character-name">{selectedCharacter.name}</h2>
-                                <p>Raça: <span className="description">{selectedCharacter.race}</span></p>
-                                <p>Habilidades: <span className="description">{selectedCharacter.abilities}</span></p>
+                                <h4>Raça: <span className="description">{selectedCharacter.race}</span></h4>
+                                <h4>Habilidades: <span className="description">{selectedCharacter.abilities}</span></h4>
                                 <button className="modal-close" onClick={closeModal}>Fechar</button>
                             </div>
                         )}

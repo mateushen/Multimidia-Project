@@ -8,7 +8,7 @@ export const Characters = [
       "Super Kamehameha - ",
       "Super Dragon Fist"
     ],
-    img: "src/assets/img/characters/goku.png"
+    img: "./src/assets/img/characters/goku.png"
   },
   {
     id: "vegeta",
@@ -19,7 +19,7 @@ export const Characters = [
       "Final Flash - ",
       "Big Bang Attack"
     ],
-    img: "src/assets/img/characters/vegeta.png"
+    img: "./src/assets/img/characters/vegeta.png"
   },
   {
     id: "gohan",
@@ -30,7 +30,7 @@ export const Characters = [
       "Super Kamehameha - ",
       "Masenko"
     ],
-    img: "src/assets/img/characters/gohan.png"
+    img: "./src/assets/img/characters/gohan.png"
   },
   {
     id: "trunks",
@@ -41,7 +41,7 @@ export const Characters = [
       "Galic Gun - ",
       "Finish Buster"
     ],
-    img: "src/assets/img/characters/trunks.png"
+    img: "./src/assets/img/characters/trunks.png"
   },
   {
     id: "frieza",
@@ -52,7 +52,7 @@ export const Characters = [
       "Death Beam - ",
       "Death Ball"
     ],
-    img: "src/assets/img/characters/frieza.png"
+    img: "./src/assets/img/characters/frieza.png"
   },
   {
     id: "cell",
@@ -63,7 +63,7 @@ export const Characters = [
       "Super Kamehameha - ",
       "Destructo Disk"
     ],
-    img: "src/assets/img/characters/cell.png"
+    img: "./src/assets/img/characters/cell.png"
   },
   {
     id: "buu",
@@ -74,7 +74,7 @@ export const Characters = [
       "Healing - ",
       "Chocolate Beam"
     ],
-    img: "src/assets/img/characters/buu.png"
+    img: "./src/assets/img/characters/buu.png"
   },
   {
     id: "piccolo",
@@ -85,7 +85,7 @@ export const Characters = [
       "Tri-Form - ",
       "Light Grenade"
     ],
-    img: "src/assets/img/characters/piccolo.png"
+    img: "./src/assets/img/characters/piccolo.png"
   },
   {
     id: "gotenks",
@@ -96,7 +96,7 @@ export const Characters = [
       "Galactic Donut - ",
       "Super Ghost Kamikaze Attack"
     ],
-    img: "src/assets/img/characters/gotenks.png"
+    img: "./src/assets/img/characters/gotenks.png"
   },
   {
     id: "krillin",
@@ -107,7 +107,7 @@ export const Characters = [
       "Destrcuto Disk - ",
       "Solar Flare"
     ],
-    img: "src/assets/img/characters/krillin.png"
+    img: "./src/assets/img/characters/krillin.png"
   },
   {
     id: "tien",
@@ -118,7 +118,7 @@ export const Characters = [
       "Solar Flare - ",
       "Tri-Form"
     ],
-    img: "src/assets/img/characters/tien.png"
+    img: "./src/assets/img/characters/tien.png"
   },
   {
     id: "android 17",
@@ -129,7 +129,7 @@ export const Characters = [
       "Super Kamehameha - ",
       "Super Dragon Fist"
     ],
-    img: "src/assets/img/characters/android17.png"
+    img: "./src/assets/img/characters/android17.png"
   },
   {
     id: "android 18",
@@ -140,7 +140,7 @@ export const Characters = [
       "Full Power Energy Ball - ",
       "Power Blitz"
     ],
-    img: "src/assets/img/characters/android18.png"
+    img: "./src/assets/img/characters/android18.png"
   },
   {
     id: "broly",
@@ -151,7 +151,7 @@ export const Characters = [
       "Eraser Cannon - ",
       "Gigantic Slam"
     ],
-    img: "src/assets/img/characters/broly.png"
+    img: "./src/assets/img/characters/broly.png"
   },
   {
     id: "vegito",
@@ -162,7 +162,7 @@ export const Characters = [
       "Final Kamehameha - ",
       "Beam Sword Slash"
     ],
-    img: "src/assets/img/characters/vegito.png"
+    img: "./src/assets/img/characters/vegito.png"
   },
   {
     id: "gogeta",
@@ -173,6 +173,17 @@ export const Characters = [
       "Big Bang Kamehameha - ",
       "Stardust Breaker"
     ],
-    img: "src/assets/img/characters/gogeta.png"
+    img: "./src/assets/img/characters/gogeta.png"
+  },
+  {
+    id: "yajirobe",
+    name: "Yajirobe",
+    race: "human",
+    abilities: [
+      "Hikou - ",
+      "Ki Sense - ",
+      "Gigantic Rock Throw"
+    ],
+    img: "./src/assets/img/characters/yajirobe.png"
   }
 ]
