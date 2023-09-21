@@ -2,31 +2,31 @@ export const Sagas = [
     {
         id: "saiyan",
         name: "Saiyajins",
-        img: "src/assets/img/saiyansaga.png",
-        url: "/saiyajins"
+        img: "../src/assets/img/saiyansaga.png",
+        url: "/dragonballz/saiyajins"
     },
     {
         id: "frieza",
         name: "Freeza",
-        img: "src/assets/img/freezasaga.png",
-        url: "/freeza"
+        img: "../src/assets/img/freezasaga.png",
+        url: "/dragonballz/freeza"
     },
     {
         id: "androids",
         name: "Andróides",
-        img: "src/assets/img/androidsaga.jpg",
-        url: "/androids"
+        img: "../src/assets/img/androidsaga.jpg",
+        url: "/dragonballz/androids"
     },
     {
         id: "cell",
         name: "Cell",
-        img: "src/assets/img/cellsaga.png",
-        url: "/cell"
+        img: "../src/assets/img/cellsaga.png",
+        url: "/dragonballz/cell"
     },
     {
         id: "majinboo",
         name: "Majin Boo",
-        img: "src/assets/img/majinboosaga.png",
-        url: "/majinboo"
+        img: "../src/assets/img/majinboosaga.png",
+        url: "/dragonballz/majinboo"
     }
 ]

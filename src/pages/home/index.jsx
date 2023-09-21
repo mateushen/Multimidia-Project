@@ -5,7 +5,6 @@ import Header from '../../components/header';
 import Footer from '../../components/footer';
 import Wallpaper from '../../assets/img/wallpaper.png'
 import { Characters } from '../../assets/characters';
-import { Sagas } from '../../assets/sagas';
 
 function Home() {
 
@@ -33,18 +32,6 @@ function Home() {
 
                 <div className="container-posts">
 
-                    <h2 className="title-section">Sagas</h2>
-                    <div className="content-container">
-                        {Sagas.map(item => (
-                            <a href={item.url} key={item.id}>
-                                <div className="widget">
-                                    <img src={item.img} width="130" />
-                                    <p className="tag">{item.name}</p>
-                                </div>
-                            </a>
-                        ))}
-                    </div>
-
                     <h2 className="title-section">Personagens</h2>
                     <div className="content-container">
                         {Characters.map(item => (
@@ -57,7 +44,7 @@ function Home() {
                     <Modal
                         className="modal-content"
                         isOpen={modalIsOpen}
-                       
+                        ariaHideApp={false}
                         onRequestClose={closeModal}
                     >
                         {selectedCharacter && (
